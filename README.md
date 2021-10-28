@@ -21,4 +21,6 @@ write('banyak saudara: '); readln(saudara);
   //Output
 writeln('Nama yang diinputkan adalah: ', nama);
 writeln('Umur yang diinputkan adalah: ', umur);
-writeln('
+writeln('Tinggi badan yang diinputkan adalah: ', tinggibadan);
+writeln('berat badan yang diinputkan adalah: ', beratbadan);
+writeln('anak ke ', anakke, ' dari 'saudara, ' saudara');
