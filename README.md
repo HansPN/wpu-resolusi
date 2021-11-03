@@ -9,6 +9,10 @@ Var
   anakke : interger;
   saudara : interger;
   a : string
+  nilai : double;
+  uas : double;
+  uts : double;
+  tugas : double;
   
   // Input 
 write('Masukkan nama: '); readln(nama);
@@ -24,3 +28,15 @@ writeln('Umur yang diinputkan adalah: ', umur);
 writeln('Tinggi badan yang diinputkan adalah: ', tinggibadan);
 writeln('berat badan yang diinputkan adalah: ', beratbadan);
 writeln('anak ke ', anakke, ' dari 'saudara, ' saudara');
+
+  //Input nilai
+  write('masukkan nilai: ');
+  readln(nilai);
+  
+  //Output
+ IF nilai > 80 then
+  writeln('Lulus');
+ else
+  writenld('gagal');
+
+ readln;
