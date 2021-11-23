@@ -40,3 +40,5 @@ writeln('anak ke ', anakke, ' dari 'saudara, ' saudara');
   writenld('gagal');
 
  readln;
+ 
+ 
