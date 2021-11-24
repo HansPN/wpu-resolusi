@@ -1,0 +1,121 @@
+Var
+ i : integer;
+Howmany : integer;
+Inputdata : integer;
+Total : integer = 0;
+Begin
+ Write('berapa: ');
+Readln(howmany);
+
+For i := 1 to howmany do
+
+Begin
+Write('data ke: ');
+Readln(inputdata);
+Writeln('total: ');
+Writeln('---------');
+End
+
+Begin
+Write('data ke: ');
+Readln(inputdata);
+Total := inputdata + total;
+Writeln('total: ', total);
+Writeln('---------');
+End
+
+ for i := 0 to 10 do
+Begin
+ writeln('saya', i);
+End;
+
+Readln;
+
+Var
+Sisi1 : integer;
+Sisi2 : integer;
+Sisi3 : integer;
+I : integer;
+Segitiga : integer;
+Keliling : integer = 0;
+Howmany : integer;
+Total keliling : integer = 0;
+
+Begin
+for i := 1 to howmany do
+Write('Sisi1');
+Readnl(sisi1);
+Write('Sisi2');
+Readnl(sisi2);
+Write('Sisi3');
+Readnl(sisi3);
+Keliling := sisi1 + sisi2 + sisi3;
+Write('segitiga: ', i, ': ');
+Readln(keliling);
+Total keliling = keliling + totalkeliling
+Writeln('total keliling: ', total keliling);
+Writeln('---------');
+End
+
+Var
+I : integer;
+C : char:
+Begin
+For c := 'z' to 'a' do
+ Writeln('downto' ,c);
+Repeat
+Writeln('hei');
+Write('apa mau diulang')!
+Until c <> 'y';
+Writeln(keluar)
+
+
+Readln;
+End.
+Var
+Pinatm : string;
+Status : string;
+Begin
+Repeat
+Write('memasukan code: ');
+Readln(pinatm);
+If pinatm := '2222' then
+Begin
+Status := ('ok');
+End
+Until status = 'oke';
+Writeln ('selamat databg to isekai');
+End
+
+Var
+Pinatm : string;
+Status : string;
+Begin
+Repeat
+Write('masukkan code: ');
+Readln(pinatm);
+Until pinatm - '2222';
+Writeln ('selamat databg to isekai');
+Readln;
+End
+
+Var
+Ay : integer;
+I : integer;
+Begin
+For I := '10' downto '1' do
+Writeln('downto',i)
+Write('anak ayam turun: ');
+Readln(ay);
+Writeln('tinggal: ' ,i);
+Readln;
+End
+
+
+Var
+Exit : boolean;
+I : integer;
+Begin
+I := 1;
+Exit := false;
+Repeat
