@@ -41,4 +41,85 @@ writeln('anak ke ', anakke, ' dari 'saudara, ' saudara');
 
  readln;
  
+
+readln(banyak);
+
+Var
+  Nama : [0..100] of string;
+  Nilai : [0..100] of integer;
+  Banyak : integer;
+
+  for i:=0 to banyak-1 do
+  begin
+        readln(nama[i]);
+        readln(nilai[i]);
+  end;
+
+
+  // --------------------------------------------
+  writeln('siswa yang lulus:');
+  for i:=0 to banyak-1 do
+  begin
+      if nilai[i] > 70 then
+      begin
+          writeln(nama[i], ' ', nilai[i]);
+      end;
+  end;
+
+  writeln('siswa yang gagal:');
+  for i:=0 to banyak-1 do
+  begin
+      if nilai[i] <= 70 then
+      begin
+          writeln(nama[i], ' ', nilai[i]);
+      end;
+  end;
+
+  readln;
  
+
+
+Var
+Var
+  Nama : [0..100] of string;
+  Nilai : [0..100] of integer;
+  Banyak : integer;
+
+  for i:=0 to banyak-1 do
+  begin
+        readln(nama[i]);
+        readln(nilai[i]);
+  end;
+
+
+  // --------------------------------------------
+  writeln('siswa yang dapat nilai C:');
+  for i:=0 to banyak-1 do
+  begin
+      if nilai[i] < 70 then
+      begin
+          writeln(nama[i], ' ', nilai[i]);
+      end;
+  end;
+
+  writeln('siswa yang nilai B:');
+  for i:=0 to banyak-1 do
+  begin
+     Else 
+      if nilai[i] > 80 then
+      begin
+          writeln(nama[i], ' ', nilai[i]);
+      end;
+  end;
+
+
+ writeln('siswa yang nilai A:');
+  for i:=0 to banyak-1 do
+  begin
+     Else
+      begin
+          writeln(nama[i], ' ', nilai[i]);
+      end;
+  end;
+
+  readln;
